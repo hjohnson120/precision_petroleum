@@ -11,7 +11,7 @@ export default function AppRouter() {
         <Switch>
           <Route exact path="/contact" component={Contact} />
           <Route exact path="/" component={Home} />
-          <Route exact path="/services" component={Services} />
+          <Route path="/services" component={Services} />
         </Switch>
       </div>
     </Router>
