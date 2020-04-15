@@ -1,20 +1,39 @@
+@import url('https://fonts.googleapis.com/css?family=Dancing+Script|IBM+Plex+Serif|Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Charmonman|Lobster+Two|Volkhov&display=swap');
+
 .App {
   text-align: center;
+  /* background-color: #111111; */
 }
 
-.App-logo {
-  height: 40vmin;
+html {
+  /* background-color: #010366; */
+}
+body {
+  font-weight: bold;
+  background-color: #010247;
+}
+.logo {
+  height: 200px;
   pointer-events: none;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+h1 {
+  padding: none;
+  margin: 0;
+}
+
+.main-bullets {
+  background-color: #010247;
+  font-size: 40px;
+  color: #fff;
+  justify-content: space-between;
+  font-weight: 900;
+  padding: 3%;
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: #111111;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -24,8 +43,132 @@
   color: white;
 }
 
+.navBtn {
+  cursor: pointer;
+  background-color: #111111;
+  border: none;
+  color: white;
+  padding: 15px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+.sessionsMain {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.tester {
+  max-width: 50vw;
+}
+
+.navBtn:active {
+  border: none;
+}
+
+.precisionMain {
+  width: 100vw;
+  margin-top: -8%;
+}
+
+.mainContainer {
+  background-color: white;
+  height: 100vh;
+}
+
+.machine {
+  width: 70%;
+}
+
+.navBtn:hover {
+  background-color: #fff;
+  color: #111111;
+}
+.number {
+  padding: 12px 10px;
+  justify-items: center;
+}
+
+h2 {
+  margin: 1%;
+}
+
+.MuiAppBar-colorPrimary {
+  background-color: #010247;
+}
+
+.service-name {
+  cursor: pointer;
+  margin: 0;
+  padding: 2%;
+}
+
+.service-name:hover {
+  background-color: #fff;
+  background-blend-mode: color-burn;
+  color: black;
+}
+.flex-list {
+  display: flex;
+  color: #fff;
+  justify-content: space-evenly;
+}
+
+.MuiBox-root-112 {
+  padding: 0;
+}
+
+.MuiTab-wrapper {
+  font-size: 1.8rem;
+  padding-left: 9%;
+  padding-right: 9%;
+}
+.footer {
+  background-color: #010247;
+  height: 10vh;
+  bottom: 0;
+  color: #fff;
+}
+.MuiTab-wrapper:hover {
+  font-size: 1.8rem;
+  background-color: #fff;
+  color: black;
+  opacity: 0.8;
+  padding-right: 9%;
+}
+
+.services {
+  background-color: #fff;
+  position: static;
+}
+
+.MuiTabs-flexContainer {
+  margin-top: 1%;
+}
+.MuiSvgIcon-root {
+  margin-bottom: -5px;
+  padding-right: 5px;
+}
+.topNav {
+  background-color: #111111;
+  width: 100vw;
+  color: white;
+  display: flex;
+  padding: 0;
+  position: sticky;
+  opacity: 0.8;
+  justify-content: space-between;
+}
+
 .App-link {
   color: #61dafb;
+}
+
+hr {
+  width: 50vw;
+  justify-content: left;
 }
 
 @keyframes App-logo-spin {
