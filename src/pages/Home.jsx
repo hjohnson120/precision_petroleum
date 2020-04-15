@@ -1,6 +1,7 @@
 import React from 'react'
 import '../App.css'
 import trucks from '../images/trucks.JPG'
+import logo from '../images/Logo1.png'
 
 function Home() {
   return (
@@ -13,9 +14,8 @@ function Home() {
         />
       </section>
       <section>
-        <h1 className="main-bullets">
-          COMPLETE FUEL SYSTEM INSTALLATION AND TANK DESIGN - TANK REMOVAL -
-          SHEET PILE INSTALLATION
+        <h1>
+          <img className="logo" src={logo} alt="precision petroleum logo" />
         </h1>
       </section>
     </div>

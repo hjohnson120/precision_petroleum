@@ -5,9 +5,11 @@ import CallIcon from '@material-ui/icons/Call'
 function Footer() {
   return (
     <div className="footer">
-      <div className="number">
-        <CallIcon />
-        727-547-0700
+      <div className="footer-info">
+        <div>
+          <CallIcon />
+          727-547-0700
+        </div>
       </div>
     </div>
   )
