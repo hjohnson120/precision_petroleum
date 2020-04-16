@@ -13,7 +13,7 @@ function TopNav() {
           <a className="navBtn" href="html_images.asp">
             ABOUT
           </a>
-          <a className="navBtn" href="/services" target="_blank">
+          <a className="navBtn" href="services">
             SERVICES
           </a>
         </div>
