@@ -9,7 +9,7 @@ function TopNav() {
         <div>
           <a
             className="navBtn"
-            href="https://serene-keller-f79a3c.netlify.app/"
+            href="https://serene-keller-f79a3c.netlify.app/services"
             target="_blank"
           >
             CONTACT
