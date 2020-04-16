@@ -122,7 +122,6 @@ export default function SimpleTabs() {
             <h2>Overfill Testing</h2>
             <h2>Operability Testing</h2>
             <h2>Integrity Testing</h2>
-            <h2></h2>
           </div>
         }
       </TabPanel>
@@ -138,9 +137,6 @@ export default function SimpleTabs() {
             <h2>Concrete Parking Lot Repairs</h2>
             <h2>Entry Boot Repairs</h2>
             <h2>Sump and Liner Repairs</h2>
-            <h2></h2>
-            <h2></h2>
-            <h2></h2>
           </div>
         }
       </TabPanel>
