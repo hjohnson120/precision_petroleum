@@ -7,17 +7,13 @@ function TopNav() {
     <div className="nav">
       <div className="topNav">
         <div>
-          <a
-            className="navBtn"
-            href="https://serene-keller-f79a3c.netlify.app/services"
-            target="_blank"
-          >
+          <a className="navBtn" href="/contact" target="_blank">
             CONTACT
           </a>
           <a className="navBtn" href="html_images.asp">
             ABOUT
           </a>
-          <a className="navBtn" href="services">
+          <a className="navBtn" href="/services">
             SERVICES
           </a>
         </div>
