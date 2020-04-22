@@ -6,6 +6,7 @@ import Tabs from '@material-ui/core/Tabs'
 import Tab from '@material-ui/core/Tab'
 import Typography from '@material-ui/core/Typography'
 import Box from '@material-ui/core/Box'
+import tank from '../images/IMG_0071.jpeg'
 
 function TabPanel(props) {
   const { children, value, index, ...other } = props
@@ -80,63 +81,99 @@ export default function SimpleTabs() {
       </Thing>
       <TabPanel value={value} index={0}>
         {
-          <div className="services">
-            <h1>INSTALLATION</h1>
-            <hr align="left"></hr>
-            <h2>Underground Tank Installation</h2>
-            <h2>Aboveground Tank Install</h2>
-            <h2>Tank Removal</h2>
-            <h2>Piping Installation</h2>
-            <h2>Complete Fuel System Installation and Tank Design</h2>
-            <h2>Overspill Installation</h2>
-            <h2>Concrete Repairs</h2>
-            <h2>Manuhole Installation / Replacement</h2>
-            <h2>Dispenser Installation / Replacement</h2>
-            <h2>Canopy Installation</h2>
+          <div className="flex-pic">
+            <div className="services">
+              <h1>INSTALLATION</h1>
+              <hr className="hr" align="left"></hr>
+              <h2>Underground Tank Installation</h2>
+              <h2>Aboveground Tank Install</h2>
+              <h2>Tank Removal</h2>
+              <h2>Piping Installation</h2>
+              <h2>Complete Fuel System Installation and Tank Design</h2>
+              <h2>Overspill Installation</h2>
+              <h2>Concrete Repairs</h2>
+              <h2>Manuhole Installation / Replacement</h2>
+              <h2>Dispenser Installation / Replacement</h2>
+              <h2>Canopy Installation</h2>
+            </div>
+            <div>
+              <img
+                className="tank "
+                alt="Precision Petroleum Work Shop"
+                src={tank}
+              />
+            </div>
           </div>
         }
       </TabPanel>
       <TabPanel value={value} index={1}>
         {
-          <div className="services">
-            <h1>SERVICE</h1>
-            <hr align="left"></hr>
-            <h2>Dispenser Repairs</h2>
-            <h2>Filter Replacement</h2>
-            <h2>Hoses/Nozzels</h2>
-            <h2>Tank Monitoring Alarms</h2>
-            <h2>Veeder Root Repairs</h2>
-            <h2>Monthly Compliance Inspactions</h2>
+          <div className="flex-pic">
+            <div className="services">
+              <h1>SERVICE</h1>
+              <hr className="hr" align="left"></hr>
+              <h2>Dispenser Repairs</h2>
+              <h2>Filter Replacement</h2>
+              <h2>Hoses/Nozzels</h2>
+              <h2>Tank Monitoring Alarms</h2>
+              <h2>Veeder Root Repairs</h2>
+              <h2>Monthly Compliance Inspactions</h2>
+            </div>
+            <div>
+              <img
+                className="tank "
+                alt="Precision Petroleum Work Shop"
+                src={tank}
+              />
+            </div>
           </div>
         }
       </TabPanel>
       <TabPanel value={value} index={2}>
         {
-          <div className="services">
-            <h1>TESTING</h1>
-            <hr align="left"></hr>
-            <h2>Tank Testing</h2>
-            <h2>Line Testing</h2>
-            <h2>Leak Detector Testing</h2>
-            <h2>Overspill Testing</h2>
-            <h2>Overfill Testing</h2>
-            <h2>Operability Testing</h2>
-            <h2>Integrity Testing</h2>
+          <div className="flex-pic">
+            <div className="services">
+              <h1>TESTING</h1>
+              <hr className="hr" align="left"></hr>
+              <h2>Tank Testing</h2>
+              <h2>Line Testing</h2>
+              <h2>Leak Detector Testing</h2>
+              <h2>Overspill Testing</h2>
+              <h2>Overfill Testing</h2>
+              <h2>Operability Testing</h2>
+              <h2>Integrity Testing</h2>
+            </div>
+            <div>
+              <img
+                className="tank "
+                alt="Precision Petroleum Work Shop"
+                src={tank}
+              />
+            </div>
           </div>
         }
       </TabPanel>
       <TabPanel value={value} index={3}>
         {
-          <div className="services">
-            <h1>REPAIRS</h1>
-            <hr align="left"></hr>
-            <h2>Bumper Post Repairs</h2>
-            <h2>Manhole Repairs</h2>
-            <h2>Overspill Repairs</h2>
-            <h2>Tank Fuel Island Repairs</h2>
-            <h2>Concrete Parking Lot Repairs</h2>
-            <h2>Entry Boot Repairs</h2>
-            <h2>Sump and Liner Repairs</h2>
+          <div className="flex-pic">
+            <div className="services">
+              <h1>REPAIRS</h1>
+              <hr className="hr" align="left"></hr>
+              <h2>Bumper Post Repairs</h2>
+              <h2>Manhole Repairs</h2>
+              <h2>Overspill Repairs</h2>
+              <h2>Tank Fuel Island Repairs</h2>
+              <h2>Concrete Parking Lot Repairs</h2>
+              <h2>Entry Boot Repairs</h2>
+              <h2>Sump and Liner Repairs</h2>
+            </div>
+            <div>
+              <img
+                className="tank "
+                alt="Precision Petroleum Work Shop"
+                src={tank}
+              />
+            </div>
           </div>
         }
       </TabPanel>

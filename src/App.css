@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Dancing+Script|IBM+Plex+Serif|Pacifico&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Charmonman|Lobster+Two|Volkhov&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300&display=swap');
 
 .App {
   text-align: center;
@@ -7,16 +9,34 @@
 }
 
 html {
-  /* background-color: #010366; */
+  font-family: 'Roboto Slab', serif;
 }
+
+.MuiTypography-body1 {
+  line-height: 1.25;
+}
+
 body {
-  font-weight: bold;
   background-color: #fff;
 }
 
 h1 {
   padding: none;
   margin: 0;
+}
+.logo-pic {
+  height: 40px;
+  bottom: 0;
+}
+
+.precision {
+  font-family: 'PT Serif', serif;
+}
+
+.about-info {
+  font-family: 'Roboto Slab', serif;
+  padding: 3%;
+  width: 50%;
 }
 
 .main-bullets {
@@ -88,6 +108,10 @@ h1 {
   justify-items: center;
 }
 
+.hr {
+  width: 80%;
+}
+
 h2 {
   margin: 1%;
 }
@@ -117,16 +141,51 @@ h2 {
   padding: 0;
 }
 
+.about-pic {
+  max-width: 90%;
+  margin: 4%;
+}
+
+.flex-section {
+  display: flex;
+  height: 75vh;
+  width: 100%;
+}
+
+.mailTo {
+  color: #fff;
+}
+
+.flex-pic {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.tank {
+  height: 70vh;
+}
+
+.pic-right {
+  width: 50%;
+}
+
 .MuiTab-wrapper {
   font-size: 1.8rem;
   padding-left: 9%;
   padding-right: 9%;
 }
+
 .footer {
   background-color: #010247;
-  height: 20vh;
-  bottom: 0;
+  height: 23vh;
   color: #fff;
+  bottom: 0;
+  width: 100%;
+}
+
+.footer-contact {
+  margin: 2%;
 }
 
 .footer-info {
@@ -135,6 +194,7 @@ h2 {
   flex-direction: column;
   align-items: center;
   height: 20vh;
+  font-weight: bold;
 }
 
 .MuiTab-wrapper:hover {
@@ -145,9 +205,15 @@ h2 {
   padding-right: 9%;
 }
 
+p {
+  margin: 3%;
+}
+
 .services {
+  font-family: 'Roboto Slab', serif;
   background-color: #fff;
   position: static;
+  width: 50%;
 }
 
 .MuiTabs-flexContainer {
@@ -173,11 +239,16 @@ h2 {
 }
 
 hr {
-  width: 50vw;
+  width: 50%;
   justify-content: left;
 }
 
 .logo {
+  width: 65vw;
+}
+
+.about-pic-section {
+  width: 50%;
 }
 
 @keyframes App-logo-spin {

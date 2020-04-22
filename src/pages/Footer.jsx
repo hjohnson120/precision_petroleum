@@ -6,9 +6,19 @@ function Footer() {
   return (
     <div className="footer">
       <div className="footer-info">
-        <div>
-          <CallIcon />
-          727-547-0700
+        <div className="footer-contact">
+          <p>
+            {/* <CallIcon /> */}
+            727-547-0700
+          </p>
+          <p>Pinellas Park, FL</p>
+          <p>Serving FL Since 1994</p>
+          <p>
+            <a className="mailTo" href="mailto:kevinprepetro@verzion.net">
+              kevinprepetro@verizon.net
+            </a>
+          </p>
+          <p></p>
         </div>
       </div>
     </div>
