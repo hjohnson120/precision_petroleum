@@ -1,41 +1,32 @@
 import React from 'react'
 import '../App.css'
 import machine from '../images/trucks.JPG'
-import Logo from '../images/Logo1.png'
+import Logo from '../images/IMG_0438.jpeg'
 
 function Contact() {
   return (
-    <div>
-      <section>
-        <img className="logo " alt="Precision Petroleum Work Shop" src={Logo} />
-      </section>
-      <section>
-        <form
-          id="contact-form"
-          onSubmit={this.handleSubmit.bind(this)}
-          method="POST"
-        >
-          <div className="form-group">
-            <label htmlFor="name">Name</label>
-            <input type="text" className="form-control" />
-          </div>
-          <div className="form-group">
-            <label htmlFor="exampleInputEmail1">Email address</label>
-            <input
-              type="email"
-              className="form-control"
-              aria-describedby="emailHelp"
-            />
-          </div>
-          <div className="form-group">
-            <label htmlFor="message">Message</label>
-            <textarea className="form-control" rows="5"></textarea>
-          </div>
-          <button type="submit" className="btn btn-primary">
-            Submit
-          </button>
-        </form>
-      </section>
+    <div className="contact-info">
+      <div>
+        <h1>Call or email us today for an estimate!</h1>
+        <h2>
+          <a className="contact-email" href="mailto:kevinprepetro@verzion.net">
+            kevinprepetro@verizon.net
+          </a>
+        </h2>
+        <h2>727-547-0700</h2>
+      </div>
+      <div className="flex-contact">
+        <img
+          className="contact-pic"
+          src={Logo}
+          alt="precision petroleum logo"
+        />
+        <img
+          className="contact-pic"
+          src={Logo}
+          alt="precision petroleum logo"
+        />
+      </div>
     </div>
   )
 }

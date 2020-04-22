@@ -49,6 +49,14 @@ h1 {
   margin-top: -3%;
 }
 
+.flex-contact {
+  display: flex;
+  flex-wrap: wrap;
+  height: 100%;
+  margin-top: 4%;
+  justify-content: space-evenly;
+}
+
 .App-header {
   background-color: #111111;
   min-height: 100vh;
@@ -58,6 +66,10 @@ h1 {
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+}
+
+.contact-pic {
+  height: 35vh;
 }
 
 .navBtn {
@@ -178,10 +190,22 @@ h2 {
 
 .footer {
   background-color: #010247;
-  height: 23vh;
+  height: 20%;
   color: #fff;
   bottom: 0;
   width: 100%;
+}
+
+.contact-email {
+  color: #010247;
+}
+
+.flex-section-contact {
+  display: flex;
+  flex-wrap: wrap;
+}
+.contact-info {
+  margin: 5%;
 }
 
 .footer-contact {
@@ -193,7 +217,7 @@ h2 {
   display: flex;
   flex-direction: column;
   align-items: center;
-  height: 20vh;
+  height: 20%;
   font-weight: bold;
 }
 
@@ -251,11 +275,50 @@ hr {
   width: 50%;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+@media only screen and (max-width: 600px) {
+  .precisionMain {
+    margin-top: 3%;
   }
-  to {
-    transform: rotate(360deg);
+
+  .footer-info {
+    margin-top: 1%;
+  }
+
+  .topNav {
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-bottom: 2%;
+  }
+
+  .flex-section {
+    flex-wrap: wrap;
+    height: 100%;
+  }
+
+  .about-info {
+    width: 100%;
+  }
+
+  .about-pic {
+    width: 100%;
+  }
+
+  .about-pic-section {
+    width: 100%;
+  }
+
+  .MuiTabs-flexContainer {
+    flex-wrap: wrap !important;
+    justify-content: center;
+  }
+
+  .services {
+    width: 100%;
+    margin-bottom: 5%;
+  }
+
+  .MuiTab-wrapper {
+    margin-left: 15% !important;
+    margin-right: 15% !important;
   }
 }
