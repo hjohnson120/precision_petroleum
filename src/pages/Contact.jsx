@@ -21,11 +21,6 @@ function Contact() {
           src={Logo}
           alt="precision petroleum logo"
         />
-        <img
-          className="contact-pic"
-          src={Logo}
-          alt="precision petroleum logo"
-        />
       </div>
     </div>
   )

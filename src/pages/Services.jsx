@@ -7,6 +7,10 @@ import Tab from '@material-ui/core/Tab'
 import Typography from '@material-ui/core/Typography'
 import Box from '@material-ui/core/Box'
 import tank from '../images/IMG_0071.jpeg'
+import spillBucket from '../images/two.JPG'
+import testing from '../images/testing.JPG'
+import shoring from '../images/shoring.JPG'
+import image from '../images/IMG_8191.PNG'
 
 function TabPanel(props) {
   const { children, value, index, ...other } = props
@@ -20,7 +24,7 @@ function TabPanel(props) {
       aria-labelledby={`simple-tab-${index}`}
       {...other}
     >
-      {value === index && <Box p={4}>{children}</Box>}
+      {value === index && <Box p={5}>{children}</Box>}
     </Typography>
   )
 }
@@ -77,24 +81,47 @@ export default function SimpleTabs() {
           <Tab label="SERVICE" {...a11yProps(1)} />
           <Tab label="TESTING" {...a11yProps(2)} />
           <Tab label="REPAIRS" {...a11yProps(3)} />
+          <Tab label="SHORING" {...a11yProps(4)} />
         </Tabs>
       </Thing>
       <TabPanel value={value} index={0}>
         {
           <div className="flex-pic">
             <div className="services">
-              <h1>INSTALLATION</h1>
+              <h1 className="title">INSTALLATION</h1>
               <hr className="hr" align="left"></hr>
-              <h2>Underground Tank Installation</h2>
-              <h2>Aboveground Tank Install</h2>
-              <h2>Tank Removal</h2>
-              <h2>Piping Installation</h2>
-              <h2>Complete Fuel System Installation and Tank Design</h2>
-              <h2>Overspill Installation</h2>
-              <h2>Concrete Repairs</h2>
-              <h2>Manuhole Installation / Replacement</h2>
-              <h2>Dispenser Installation / Replacement</h2>
-              <h2>Canopy Installation</h2>
+              <ul>
+                <li>
+                  <h2>Underground Tank Installation</h2>
+                </li>
+                <li>
+                  <h2>Aboveground Tank Install</h2>
+                </li>
+                <li>
+                  <h2>Tank Removal</h2>
+                </li>
+                <li>
+                  <h2>Piping Installation</h2>
+                </li>
+                <li>
+                  <h2>Complete Fuel System Installation and Tank Design</h2>
+                </li>
+                <li>
+                  <h2>Overspill Installation</h2>
+                </li>
+                <li>
+                  <h2>Concrete Repairs</h2>
+                </li>
+                <li>
+                  <h2>Manhole Installation / Replacement</h2>
+                </li>
+                <li>
+                  <h2>Dispenser Installation / Replacement</h2>
+                </li>
+                <li>
+                  <h2>Canopy Installation</h2>
+                </li>
+              </ul>
             </div>
             <div>
               <img
@@ -110,20 +137,34 @@ export default function SimpleTabs() {
         {
           <div className="flex-pic">
             <div className="services">
-              <h1>SERVICE</h1>
+              <h1 className="title">SERVICE</h1>
               <hr className="hr" align="left"></hr>
-              <h2>Dispenser Repairs</h2>
-              <h2>Filter Replacement</h2>
-              <h2>Hoses/Nozzels</h2>
-              <h2>Tank Monitoring Alarms</h2>
-              <h2>Veeder Root Repairs</h2>
-              <h2>Monthly Compliance Inspactions</h2>
+              <ul>
+                <li>
+                  <h2>Dispenser Repairs</h2>
+                </li>
+                <li>
+                  <h2>Filter Replacement</h2>
+                </li>
+                <li>
+                  <h2>Hoses/Nozzles</h2>
+                </li>
+                <li>
+                  <h2>Tank Monitoring Alarms</h2>
+                </li>
+                <li>
+                  <h2>Veeder Root Repairs</h2>
+                </li>
+                <li>
+                  <h2>Monthly Compliance Inspections</h2>
+                </li>
+              </ul>
             </div>
             <div>
               <img
-                className="tank "
-                alt="Precision Petroleum Work Shop"
-                src={tank}
+                className="testing "
+                alt="logo for Precision Petroleum"
+                src={image}
               />
             </div>
           </div>
@@ -133,21 +174,37 @@ export default function SimpleTabs() {
         {
           <div className="flex-pic">
             <div className="services">
-              <h1>TESTING</h1>
+              <h1 className="title">TESTING</h1>
               <hr className="hr" align="left"></hr>
-              <h2>Tank Testing</h2>
-              <h2>Line Testing</h2>
-              <h2>Leak Detector Testing</h2>
-              <h2>Overspill Testing</h2>
-              <h2>Overfill Testing</h2>
-              <h2>Operability Testing</h2>
-              <h2>Integrity Testing</h2>
+              <ul>
+                <li>
+                  <h2>Tank Testing</h2>
+                </li>
+                <li>
+                  <h2>Line Testing</h2>
+                </li>
+                <li>
+                  <h2>Leak Detector Testing</h2>
+                </li>
+                <li>
+                  <h2>Overspill Testing</h2>
+                </li>
+                <li>
+                  <h2>Overfill Testing</h2>
+                </li>
+                <li>
+                  <h2>Operability Testing</h2>
+                </li>
+                <li>
+                  <h2>Integrity Testing</h2>
+                </li>
+              </ul>
             </div>
             <div>
               <img
-                className="tank "
-                alt="Precision Petroleum Work Shop"
-                src={tank}
+                className="testing "
+                alt="leak detector testing"
+                src={testing}
               />
             </div>
           </div>
@@ -157,21 +214,74 @@ export default function SimpleTabs() {
         {
           <div className="flex-pic">
             <div className="services">
-              <h1>REPAIRS</h1>
+              <h1 className="title">REPAIRS</h1>
               <hr className="hr" align="left"></hr>
-              <h2>Bumper Post Repairs</h2>
-              <h2>Manhole Repairs</h2>
-              <h2>Overspill Repairs</h2>
-              <h2>Tank Fuel Island Repairs</h2>
-              <h2>Concrete Parking Lot Repairs</h2>
-              <h2>Entry Boot Repairs</h2>
-              <h2>Sump and Liner Repairs</h2>
+              <ul>
+                <li>
+                  <h2>Bumper Post Repairs</h2>
+                </li>
+                <li>
+                  <h2>Manhole Repairs</h2>
+                </li>
+                <li>
+                  <h2>Overspill Repairs</h2>
+                </li>
+                <li>
+                  <h2>Tank Fuel Island Repairs</h2>
+                </li>
+                <li>
+                  <h2>Concrete Parking Lot Repairs</h2>
+                </li>
+                <li>
+                  <h2>Entry Boot Repairs</h2>
+                </li>
+                <li>
+                  <h2>Sump and Liner Repairs</h2>
+                </li>
+              </ul>
             </div>
             <div>
               <img
                 className="tank "
                 alt="Precision Petroleum Work Shop"
-                src={tank}
+                src={spillBucket}
+              />
+            </div>
+          </div>
+        }
+      </TabPanel>
+      <TabPanel value={value} index={4}>
+        {
+          <div className="flex-pic">
+            <div className="services">
+              <h1 className="title">SHEET PILING / SHORING</h1>
+              <hr className="hr" align="left"></hr>
+              <ul>
+                <li>
+                  <h2>Dispenser Repairs</h2>
+                </li>
+                <li>
+                  <h2>Filter Replacement</h2>
+                </li>
+                <li>
+                  <h2>Hoses/Nozzles</h2>
+                </li>
+                <li>
+                  <h2>Tank Monitoring Alarms</h2>
+                </li>
+                <li>
+                  <h2>Veeder Root Repairs</h2>
+                </li>
+                <li>
+                  <h2>Monthly Compliance Inspections</h2>
+                </li>
+              </ul>
+            </div>
+            <div>
+              <img
+                className="tank "
+                alt="Shoring and sheet piling"
+                src={shoring}
               />
             </div>
           </div>
@@ -180,123 +290,3 @@ export default function SimpleTabs() {
     </div>
   )
 }
-
-// import React, { useState } from 'react'
-// import '../App.css'
-
-// function Services() {
-// const showInstallation = () => {
-//   return (
-//     <div className="services">
-//       <h1>INSTALLATION</h1>
-//       <h2>Underground Tank Installation</h2>
-//       <h2>Aboveground Tank Install</h2>
-//       <h2>Tank Removal</h2>
-//       <h2>Piping Installation</h2>
-//       <h2>Complete Fuel System Installation and Tank Design</h2>
-//       <h2>Overspill Installation</h2>
-//       <h2>Concrete Repairs</h2>
-//       <h2>Manuhole Installation / Replacement</h2>
-//       <h2>Dispenser Installation / Replacement</h2>
-//       <h2>Canopy Installation</h2>
-//     </div>
-//   )
-// }
-
-// const showService = () => {
-//   var x = document.getElementById('service')
-//   if (x.style.display === 'none') {
-//     x.style.display = 'block'
-//   } else {
-//     x.style.display = 'none'
-//   }
-// }
-
-// const showRepairs = () => {
-//   var x = document.getElementById('repairs')
-//   if (x.style.display === 'none') {
-//     x.style.display = 'block'
-//   } else {
-//     x.style.display = 'none'
-//   }
-// }
-
-// const showTesting = () => {
-//   var x = document.getElementById('testing')
-//   if (x.style.display === 'none') {
-//     x.style.display = 'block'
-//   } else {
-//     x.style.display = 'none'
-//   }
-// }
-
-// return (
-//   <div>
-//     <section>
-//       <h1 className="main-bullets">SERVICES</h1>
-//     </section>
-//     <div className="flex-list">
-//       <h2 className="service-name" onClick={showService}>
-//         SERVICE
-//       </h2>
-//       <h2 className="service-name" onClick={showInstallation}>
-//         INSTALLATION
-//       </h2>
-//       <h2 className="service-name" onClick={showTesting}>
-//         TESTING
-//       </h2>
-//       <h2 className="service-name" onClick={showRepairs}>
-//         REPAIRS
-//       </h2>
-//     </div>
-//     <div className="services" id="installation" style={{ display: 'none' }}>
-//       <h1>INSTALLATION</h1>
-//       <h2>Underground Tank Installation</h2>
-//       <h2>Aboveground Tank Install</h2>
-//       <h2>Tank Removal</h2>
-//       <h2>Piping Installation</h2>
-//       <h2>Complete Fuel System Installation and Tank Design</h2>
-//       <h2>Overspill Installation</h2>
-//       <h2>Concrete Repairs</h2>
-//       <h2>Manuhole Installation / Replacement</h2>
-//       <h2>Dispenser Installation / Replacement</h2>
-//       <h2>Canopy Installation</h2>
-//     </div>
-//     <div className="services" id="service" style={{ display: 'none' }}>
-//       <h1>SERVICE</h1>
-//       <h2>Dispenser Repairs</h2>
-//       <h2>Filter Replacement</h2>
-//       <h2>Hoses/Nozzels</h2>
-//       <h2>Tank Monitoring Alarms</h2>
-//       <h2>Veeder Root Repairs</h2>
-//       <h2>Monthly Compliance Inspactions</h2>
-//     </div>
-//     <div className="services" id="testing" style={{ display: 'none' }}>
-//      <h1>TESTING</h1>
-//       <h2>Tank Testing</h2>
-//       <h2>Line Testing</h2>
-//       <h2>Leak Detector Testing</h2>
-//       <h2>Overspill Testing</h2>
-//       <h2>Overfill Testing</h2>
-//       <h2>Operability Testing</h2>
-//       <h2>Integrity Testing</h2>
-//       <h2></h2>
-//     </div>
-//     <div className="services" id="repairs" style={{ display: 'none' }}>
-//       <h1>REPAIRS</h1>
-//       <h2>Bumper Post Repairs</h2>
-//       <h2>Manhole Repairs</h2>
-//       <h2>Overspill Repairs</h2>
-//       <h2>Tank Fuel Island Repairs</h2>
-//       <h2>Concrete Parking Lot Repairs</h2>
-//       <h2>Entry Boot Repairs</h2>
-//       <h2>Sump and Liner Repairs</h2>
-//       <h2></h2>
-//       <h2></h2>
-//       <h2></h2>
-//     </div>
-//   </div>
-// )
-// }
-
-// export default Services

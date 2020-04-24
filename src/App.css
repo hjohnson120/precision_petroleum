@@ -10,6 +10,7 @@
 
 html {
   font-family: 'Roboto Slab', serif;
+  height: 100%;
 }
 
 .MuiTypography-body1 {
@@ -121,7 +122,7 @@ h1 {
 }
 
 .hr {
-  width: 80%;
+  width: 95%;
 }
 
 h2 {
@@ -188,12 +189,17 @@ h2 {
   padding-right: 9%;
 }
 
+.testing {
+  width: 43vw;
+}
+
 .footer {
   background-color: #010247;
-  height: 20%;
+  height: 1000%;
   color: #fff;
-  bottom: 0;
+  /* bottom: 0; */
   width: 100%;
+  position: relative;
 }
 
 .contact-email {
@@ -242,6 +248,11 @@ p {
 
 .MuiTabs-flexContainer {
   margin-top: 1%;
+  flex-wrap: wrap;
+}
+
+.title {
+  text-align: center;
 }
 .MuiSvgIcon-root {
   margin-bottom: -5px;
@@ -262,11 +273,6 @@ p {
   color: #61dafb;
 }
 
-hr {
-  width: 50%;
-  justify-content: left;
-}
-
 .logo {
   width: 65vw;
 }
@@ -278,6 +284,11 @@ hr {
 @media only screen and (max-width: 600px) {
   .precisionMain {
     margin-top: 3%;
+  }
+
+  .title {
+    text-align: center;
+    font-weight: bold;
   }
 
   .footer-info {
@@ -299,6 +310,10 @@ hr {
     width: 100%;
   }
 
+  .tank {
+    width: 90vw;
+  }
+
   .about-pic {
     width: 100%;
   }
@@ -318,7 +333,19 @@ hr {
   }
 
   .MuiTab-wrapper {
-    margin-left: 15% !important;
-    margin-right: 15% !important;
+    font-size: 1rem !important;
+    font-weight: bold !important;
+  }
+
+  .MuiBox-root-112 {
+    padding: 10px !important;
+  }
+
+  .hr {
+    width: 87vw;
+  }
+
+  .testing {
+    width: 90vw;
   }
 }

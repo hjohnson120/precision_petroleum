@@ -2,6 +2,7 @@ import React from 'react'
 import '../App.css'
 import trucks from '../images/trucks.JPG'
 import logo from '../images/Logo1.png'
+import sheetPiling from '../images/newlogo.jpeg'
 
 function Home() {
   return (
@@ -15,7 +16,11 @@ function Home() {
       </section>
       <section>
         <h1>
-          <img className="logo" src={logo} alt="precision petroleum logo" />
+          <img
+            className="logo"
+            src={sheetPiling}
+            alt="precision petroleum logo"
+          />
         </h1>
       </section>
     </div>
