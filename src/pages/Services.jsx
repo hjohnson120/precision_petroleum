@@ -11,6 +11,7 @@ import spillBucket from '../images/two.JPG'
 import testing from '../images/testing.JPG'
 import shoring from '../images/shoring.JPG'
 import image from '../images/IMG_8191.PNG'
+import { Helmet } from 'react-helmet'
 
 function TabPanel(props) {
   const { children, value, index, ...other } = props
@@ -70,6 +71,10 @@ export default function SimpleTabs() {
 
   return (
     <div className={classes.root}>
+      <Helmet>
+        <title>Precision Petroleum Services Page</title>
+        <meta name="services" content="Precision Petroleum Services" />
+      </Helmet>
       <Thing position="static">
         <Tabs
           value={value}

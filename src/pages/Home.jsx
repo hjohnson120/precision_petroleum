@@ -2,10 +2,15 @@ import React from 'react'
 import '../App.css'
 import trucks from '../images/trucks.JPG'
 import sheetPiling from '../images/newlogo.jpeg'
+import { Helmet } from 'react-helmet'
 
 function Home() {
   return (
     <div className="home-div">
+      <Helmet>
+        <title>Precision Petroleum</title>
+        <meta name="home" content="Precision Petroleum Home" />
+      </Helmet>
       <section>
         <img
           className="precisionMain "

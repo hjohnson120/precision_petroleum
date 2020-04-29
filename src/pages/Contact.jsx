@@ -2,10 +2,15 @@ import React from 'react'
 import '../App.css'
 import machine from '../images/trucks.JPG'
 import Logo from '../images/IMG_0438.jpeg'
+import { Helmet } from 'react-helmet'
 
 function Contact() {
   return (
     <div className="contact-info">
+      <Helmet>
+        <title>Precision Petroleum Contact Page</title>
+        <meta name="contact" content="Precision Petroleum Contact" />
+      </Helmet>
       <div>
         <h1>Call or email us today for an estimate!</h1>
         <h2>

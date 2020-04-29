@@ -1,10 +1,15 @@
 import React from 'react'
 import '../App.css'
 import logo from '../images/main.jpeg'
+import { Helmet } from 'react-helmet'
 
 function About() {
   return (
     <div className="flex-section">
+      <Helmet>
+        <title>Precision Petroleum About Page</title>
+        <meta name="about" content="Precision Petroleum About" />
+      </Helmet>
       <section className="about-info">
         <h1>
           <b>About Us</b>
