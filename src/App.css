@@ -281,9 +281,22 @@ p {
   width: 50%;
 }
 
+.home-div {
+  height: 100%;
+}
+
 @media only screen and (max-width: 600px) {
   .precisionMain {
     margin-top: 3%;
+  }
+
+  .home-div {
+    margin-top: 10vh;
+    margin-bottom: 10vh;
+  }
+
+  .logo {
+    width: 90%;
   }
 
   .title {

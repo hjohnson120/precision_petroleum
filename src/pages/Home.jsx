@@ -6,7 +6,7 @@ import sheetPiling from '../images/newlogo.jpeg'
 
 function Home() {
   return (
-    <div>
+    <div className="home-div">
       <section>
         <img
           className="precisionMain "

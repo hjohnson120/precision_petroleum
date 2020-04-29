@@ -258,22 +258,16 @@ export default function SimpleTabs() {
               <hr className="hr" align="left"></hr>
               <ul>
                 <li>
-                  <h2>Dispenser Repairs</h2>
+                  <h2>Z 65 Sheets</h2>
                 </li>
                 <li>
-                  <h2>Filter Replacement</h2>
+                  <h2>S 64 Sheets</h2>
                 </li>
                 <li>
-                  <h2>Hoses/Nozzles</h2>
+                  <h2>Xz 95 Sheets</h2>
                 </li>
                 <li>
-                  <h2>Tank Monitoring Alarms</h2>
-                </li>
-                <li>
-                  <h2>Veeder Root Repairs</h2>
-                </li>
-                <li>
-                  <h2>Monthly Compliance Inspections</h2>
+                  <h2>6ft to 50 ft Sheets Installed </h2>
                 </li>
               </ul>
             </div>
