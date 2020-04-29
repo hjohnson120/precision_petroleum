@@ -1,7 +1,6 @@
 import React from 'react'
 import '../App.css'
 import trucks from '../images/trucks.JPG'
-import logo from '../images/Logo1.png'
 import sheetPiling from '../images/newlogo.jpeg'
 
 function Home() {
