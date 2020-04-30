@@ -15,7 +15,7 @@ function Footer() {
           <p>Serving FL Since 1994</p>
           <p>
             <a className="mailTo" href="mailto:kevinprepetro@verzion.net">
-              kevinprepetro@verizon.net
+              prepetro@verizon.net
             </a>
           </p>
           <p></p>
